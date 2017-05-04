@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import PicStamp
 
-class ViewController: UIViewController {
+class ViewController: SourceSelecterViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

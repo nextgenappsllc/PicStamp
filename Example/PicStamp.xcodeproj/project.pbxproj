@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		025EA31D6E8CED775DBABAA0 /* Pods_PicStamp_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFB7D3B6814A81C4DDC6041 /* Pods_PicStamp_Tests.framework */; };
-		1DA483CB96CBAC2337C3E09D /* Pods_PicStamp_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DB037EAA12C71EE81999BE /* Pods_PicStamp_Example.framework */; };
+		33A077B1A5D348A88D160170 /* Pods_PicStamp_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0DB037EAA12C71EE81999BE /* Pods_PicStamp_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		826109561EB2F09600CA02CB /* Pods_PicStamp_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826109551EB2F09600CA02CB /* Pods_PicStamp_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A1291E2613A0EB28B53700 /* PicStamp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PicStamp.podspec; path = ../PicStamp.podspec; sourceTree = "<group>"; };
-		174404BEA6CF8BBE5184A262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		02A1291E2613A0EB28B53700 /* PicStamp.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PicStamp.podspec; path = ../PicStamp.podspec; sourceTree = "<group>"; };
+		174404BEA6CF8BBE5184A262 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		17FF74E5888A916CE1965DFA /* Pods-PicStamp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicStamp_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicStamp_Example/Pods-PicStamp_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2E49530182A56184D22DA683 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2E49530182A56184D22DA683 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5BFB7D3B6814A81C4DDC6041 /* Pods_PicStamp_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicStamp_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* PicStamp_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicStamp_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63219F8636A72BB9FFAD85F9 /* Pods-PicStamp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicStamp_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicStamp_Example/Pods-PicStamp_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7BB71864F95AF524D751B65E /* Pods-PicStamp_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicStamp_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicStamp_Tests/Pods-PicStamp_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		826109551EB2F09600CA02CB /* Pods_PicStamp_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_PicStamp_Example.framework; path = "../../../../Library/Developer/Xcode/DerivedData/PicStamp-fktcoibqbwxxvtaihhgqwqibdkre/Build/Products/Debug-iphonesimulator/Pods_PicStamp_Example.framework"; sourceTree = "<group>"; };
 		A91ECDCF269BF68A7A9AF94A /* Pods-PicStamp_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicStamp_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicStamp_Tests/Pods-PicStamp_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B0DB037EAA12C71EE81999BE /* Pods_PicStamp_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicStamp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,7 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DA483CB96CBAC2337C3E09D /* Pods_PicStamp_Example.framework in Frameworks */,
+				826109561EB2F09600CA02CB /* Pods_PicStamp_Example.framework in Frameworks */,
+				33A077B1A5D348A88D160170 /* Pods_PicStamp_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +75,7 @@
 		526358C82B780F3EC05A0167 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				826109551EB2F09600CA02CB /* Pods_PicStamp_Example.framework */,
 				B0DB037EAA12C71EE81999BE /* Pods_PicStamp_Example.framework */,
 				5BFB7D3B6814A81C4DDC6041 /* Pods_PicStamp_Tests.framework */,
 			);

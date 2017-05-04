@@ -35,5 +35,11 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+    <key>NSCameraUsageDescription</key>
+    <string>The app needs to access your camera in order to take a photo to upload.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>The app needs access to your photos so you can pick the ones you want to upload.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>In order to get the location to tag the picture we need to access your location</string>
 </dict>
 </plist>

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PicStamp'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PicStamp.'
+  s.summary          = 'Take, pick, label and stamp pictures'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod contains all the code to take, pick, label and stamp pictures. Including the views and controllers.
                        DESC
 
   s.homepage         = 'https://github.com/nextgenappsllc/PicStamp'
@@ -32,11 +32,13 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'PicStamp/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'PicStamp' => ['PicStamp/Assets/*.png']
-  # }
+  s.resource_bundles = {'PicStamp' => ['PicStamp/Assets/*.png']}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.frameworks = 'UIKit', 'Photos'
+    s.dependency 'Eureka', '~> 3.0'
+    s.dependency 'SQLite.swift', '~> 0.11'
+    s.dependency 'NGAEssentials', '~> 0.1'
+    s.dependency 'NGAUI', '~> 0.1'
+  # s.dependency 'NGAFramework', git: 'ssh://jose@localhost/Users/Jose/swift/pods/NGAFramework/'
 end

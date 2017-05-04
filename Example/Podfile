@@ -1,14 +1,18 @@
 use_frameworks!
 
 target 'PicStamp_Example' do
+  pod 'NGAEssentials', path: '~/swift/pods/NGAEssentials'
+  pod 'NGAUI', path: '~/swift/pods/NGAUI'
+  pod 'NGApi', path: '~/swift/pods/NGApi'
   pod 'PicStamp', :path => '../'
+  
 
   target 'PicStamp_Tests' do
     inherit! :search_paths
 
     pod 'Quick', '~> 1.0.0'
-  pod 'Nimble', '~> 5.1.1'
-  pod 'FBSnapshotTestCase'
-  pod 'Nimble-Snapshots'
+    pod 'Nimble', '~> 5.1.1'
+    pod 'FBSnapshotTestCase'
+    pod 'Nimble-Snapshots'
   end
 end
